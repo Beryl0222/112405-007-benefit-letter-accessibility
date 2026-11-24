@@ -1,0 +1,20 @@
+{
+  "records": [
+    {
+      "id": "BL-3",
+      "text": "申请人可自送达之日起十个工作日内补充材料；补交不表示资格已核定。",
+      "kind": "decision"
+    },
+    {
+      "id": "BL-4",
+      "text": "如对本决定有异议，可自收到之日起三十日内申请复核。",
+      "kind": "appeal-clause"
+    },
+    {
+      "id": "BL-5",
+      "text": "更正：BL-3 的期限为十五个工作日，其他内容不变。",
+      "kind": "correction"
+    }
+  ],
+  "case_id": "benefit-3"
+}

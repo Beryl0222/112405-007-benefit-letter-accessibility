@@ -14,7 +14,81 @@
       "id": "BL-5",
       "text": "更正：BL-3 的期限为十五个工作日，其他内容不变。",
       "kind": "correction"
+    },
+    {
+      "id": "BL-10",
+      "kind": "decision",
+      "text": "D1八月一日打印，八月五日送达。申请家庭H1资格未核定，可补收入证明；核算周期四月至六月，不含七月收入。"
+    },
+    {
+      "id": "BL-11",
+      "kind": "decision",
+      "text": "D1家庭成员限申请人及未成年子女，不把同址兄长算入。核定后每月金额最多600元，尚未核定金额。"
+    },
+    {
+      "id": "BL-12",
+      "kind": "calendar",
+      "text": "演练工作日为周一到周五，八月十日为当地休息日，不计工作日；期限从送达次日起算。"
+    },
+    {
+      "id": "BL-13",
+      "kind": "correction",
+      "text": "D2八月七日更正D1补交期为十五个工作日，资格、核算周期和申诉三十日不变，八月八日送达。"
+    },
+    {
+      "id": "BL-14",
+      "kind": "contradictory-copy",
+      "text": "另一扫描件页眉写八月六日送达，送达回执写八月五日；经办尚未确认该页是否同一决定。"
+    },
+    {
+      "id": "BL-15",
+      "kind": "draft-explanation",
+      "text": "易读草稿：你已获每月600元，请在打印后十天补交收入，兄长也算家庭成员。此稿未经复核。"
+    },
+    {
+      "id": "BL-16",
+      "kind": "delivery",
+      "text": "八月六日已将说明E1送给H1，内容为资格未核定，引用BL3的十个工作日。E2仍为未发草稿。"
+    },
+    {
+      "id": "BL-17",
+      "kind": "question",
+      "text": "申请人问：改成十五个工作日以后，申诉也延后了吗？我七月收入要补交吗？"
     }
   ],
-  "case_id": "benefit-3"
+  "case_id": "benefit-3",
+  "context": {
+    "decisions": [
+      {
+        "id": "D1",
+        "sources": [
+          "BL-3",
+          "BL-4",
+          "BL-10",
+          "BL-11"
+        ]
+      },
+      {
+        "id": "D2",
+        "sources": [
+          "BL-13"
+        ]
+      }
+    ],
+    "explanations": [
+      {
+        "id": "E1",
+        "state": "delivered",
+        "source": "BL-16",
+        "citations": [
+          "BL-3"
+        ]
+      },
+      {
+        "id": "E2",
+        "state": "draft",
+        "source": "BL-15"
+      }
+    ]
+  }
 }

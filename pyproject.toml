@@ -1,6 +1,13 @@
 [project]
-name = "case-workbench"
+name = "easyread-benefit"
 version = "0.1.0"
-description = "合成文本资料工作区"
+description = "补助决定书中文易读改写、权利保真核对与版本留存（标准库实现）"
+readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+easyread = "easyread.cli:main"
+
+[tool.unittest]
+start-dir = "tests"
